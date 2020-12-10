@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: PyUpdater-Azure-Blob-Plugin
+Version: 0.1.0
+Summary: Azure Blob Storage plugin for PyUpdater
+Home-page: https://github.com/hill/PyUpdater-Azure-Blob-Plugin
+Author: Tom Hill
+Author-email: tomhill98@me.com
+License: UNKNOWN
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Provides: pyupdater.plugins
+Description-Content-Type: text/markdown
+Requires-Dist: azure-storage-blob
+
+# PyUpdater Azure Blob Storage plugin
+
+**Probs not ready to use yet! 🙃**
+
+[PyUpdater](https://github.com/Digital-Sapphire/PyUpdater) upload plugin for Azure Blob Storage
+
+Run `pyupdater settings --plugin azure-blobs` to set up. Get the configuration string from your access keys in Azure and the name of the container you wish to upload your update files to.
+
+(Feel free to contribute)
+
+
